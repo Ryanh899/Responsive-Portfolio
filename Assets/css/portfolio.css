@@ -1,0 +1,153 @@
+.container {
+    position: relative; 
+    height: 940px; 
+    
+}
+img { 
+    height: 175px; 
+    width: 250px; 
+}
+	
+.first {
+    position: relative; 
+    float: left; 
+    padding: 10px; 
+    margin-right: 20px
+}
+
+.second {
+    position: absolute; 
+    float: left; 
+    padding: 10px; 
+    top: 350px; 
+}
+
+.third {
+    position: absolute; 
+    left: 299px;  
+    padding: 10px; 
+    top: 350px; 
+}
+
+.fourth {
+    position: absolute; 
+    float: left; 
+    padding: 10px; 
+    top: 575px; 
+    
+}
+
+.text1 {
+    position: absolute; 
+    top: 120px;  
+    background: teal; 
+    width: 250px; 
+    text-align: center;
+    color: white; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+ 
+.text2 {
+    position: absolute; 
+    top: 120px; 
+    background: teal; 
+    width: 250px; 
+    text-align: center; 
+    left: 10px; 
+    color: white; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.text3 {
+    position: absolute; 
+    top: 120px; 
+    background: teal; 
+    width: 250px; 
+    text-align: center; 
+    color: white; 
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+}    
+
+.text4 {
+    position: absolute; 
+    top: 120px; 
+    background: teal; 
+    width: 250px; 
+    text-align: center; 
+    color: white; 
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+}
+
+.text5 {
+    position: absolute; 
+    top: 127px; 
+    background: teal; 
+    width: 250px; 
+    text-align: center;
+    padding: 15px 0px; 
+    color: white; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+@media screen and (max-width: 768px) {
+    .first {
+        position: absolute; 
+        margin-left: 290px; 
+        top: 125px; 
+    }
+    .first-2 {
+        position: absolute; 
+        margin-left: 0px; 
+        top: 125px
+    }
+}
+@media screen and (max-width: 640px) {
+    .container {
+        height: 100%;
+    }
+    .all {
+        display: block; 
+        align-content: center; 
+        padding: 0px;
+    }
+    
+    .first {
+        position: absolute; 
+        margin-left: 100px; 
+        top: 16%; 
+
+    }
+    .first-2 {
+        position: absolute; 
+        margin-left: 100px; 
+        top: 33%; 
+    }
+    .second {
+        top: 50%;
+        margin-left: 100px
+    }
+
+    .third {
+        position: absolute; 
+        margin-left: 0px; 
+        top: 67%; 
+        left: 110px
+    }
+
+    .fourth {
+        position: absolute; 
+        margin-left: 100px; 
+        top: 84%; 
+    }
+    img {
+        height: 125px; 
+    width: 225px; 
+    }
+    .phone {
+        width: 225px; 
+        height: 35px; 
+        font-size: 16px; 
+        position: absolute; 
+        top: 80px
+    }
+}
